@@ -2,8 +2,8 @@ const looks = ["STRUCTURE / 01", "VOID / 02", "MOTION / 03"];
 
 export default function Home() {
   return (
-    <main>
-      <nav><a className="logo" href="#top">ATELIER<br/>NOIR</a><div><a href="#collection">Collection</a><a href="#manifesto">Manifesto</a><a href="#contact">Stockists</a></div><button aria-label="Open menu">MENU ☰</button></nav>
+    <main><div className="lang-float"><a className="active" href="/">EN</a><a href="/ru">RU</a></div>
+      <nav><a className="logo" href="#top">ATELIER<br/>NOIR</a><div><a href="/en/collection">Collection</a><a href="/en/manifesto">Manifesto</a><a href="#contact">Stockists</a></div><button aria-label="Open menu">MENU ☰</button></nav>
       <section className="hero" id="top">
         <div className="issue">ISSUE N°07 <span>PARIS / 2026</span></div>
         <h1>FORM<br/><i>FOLLOWS</i><br/>FEELING.</h1>
